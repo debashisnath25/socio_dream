@@ -1,20 +1,13 @@
-<header class="header" id="site-header">
+<header class="header" id="site-header" style="background: -webkit-linear-gradient(-45deg, #5f2c82, #ca4966);
+    background: -moz-linear-gradient(-45deg, #5f2c82, #ca4966);
+    background: -o-linear-gradient(-45deg, #5f2c82, #ca4966);
+    background: linear-gradient(-45deg, #5f2c82, #ca4966);">
 
 	<div class="page-title">
-		<h6>Profile Page</h6>
+		<a href="#" ><img src="images/newlogo.png" style="height:40px;margin-top:-10px;"></a>
 	</div>
 
 	<div class="header-content-wrapper">
-		<form class="search-bar w-search notification-list friend-requests">
-			<div class="form-group with-button">
-				<input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
-				<button>
-					<svg class="olymp-magnifying-glass-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use></svg>
-				</button>
-			</div>
-		</form>
-
-		<a href="#" class="link-find-friend">Find Friends</a>
 
 		<div class="control-block">
 
