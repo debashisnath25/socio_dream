@@ -2209,7 +2209,7 @@
 <!-- ... end Playlist Popup -->
 
 
-<?php include("footer.php");?>
+
 
 </body>
 </html>
