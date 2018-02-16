@@ -1,6 +1,6 @@
-<a class="back-to-top" href="#">
+<!--<a class="back-to-top" href="#">
 	<img src="">
-</a>
+</a>-->
 
 
 

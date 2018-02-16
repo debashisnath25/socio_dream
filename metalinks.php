@@ -30,4 +30,7 @@
 		.icn_man-activ{
 			color:white;
 		}
+		.fixedsticky {
+		top: 0;
+	}
 	</style>
