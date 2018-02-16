@@ -394,7 +394,7 @@
 </header>
 
 <!-- ... end Responsive Header-BP -->
-<div class="header-spacer header-spacer-small"></div>
+<div class="header-spacer"></div>
 
 <!-- Main Header Account -->
 
@@ -406,7 +406,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12" style="margin-top:21px;">
+		<div class="col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
 					<h6 class="title">Personal Information</h6>
