@@ -24,7 +24,7 @@
 		}
 		
 		.icn_man:hover{
-		
+			color:white;
 		}
 
 		.icn_man-activ{
