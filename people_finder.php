@@ -24,67 +24,6 @@
 
 <div class="container">
 	<div class="row">
-
-		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			<div class="ui-block">
-				<div class="top-header top-header-favorit">
-					<div class="top-header-thumb">
-						<img src="images/top-header2.jpg" alt="nature">
-						<div class="top-header-author">
-							<div class="author-thumb">
-								<img src="images/author-main2.jpg" alt="author">
-							</div>
-							<div class="author-content">
-								<a href="#" class="h3 author-name">Green Goo Rock</a>
-								<div class="country">Rock Band  |  San Francisco, CA</div>
-							</div>
-						</div>
-					</div>
-					<div class="profile-section">
-						<div class="row">
-							<div class="col-xl-8 m-auto col-lg-8 col-md-12">
-								<ul class="profile-menu">
-									<li>
-										<a href="12-FavouritePage.html" class="active">Timeline</a>
-									</li>
-									<li>
-										<a href="13-FavouritePage-About.html">About</a>
-									</li>
-									<li>
-										<a href="07-ProfilePage-Photos.html">Photos</a>
-									</li>
-									<li>
-										<a href="09-ProfilePage-Videos.html">Videos</a>
-									</li>
-									<li>
-										<a href="14-FavouritePage-Statistics.html">Statistics</a>
-									</li>
-									<li>
-										<a href="15-FavouritePage-Events.html">Events</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="control-block-button">
-							<a href="#" class="btn btn-control bg-primary">
-								<i class="far fa-star"></i>
-							</a>
-
-							<a href="#" class="btn btn-control bg-purple">
-								<i class="far fa-comment-alt"></i>
-							</a>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
 		<div class="col-xl-9 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-xs-12">
 			<div class="ui-block responsive-flex">
 				<div class="ui-block-title">
@@ -243,46 +182,10 @@
 				</ul>
 			</nav>
 		</div>
-
 		<?php include("sidebar.php");?>
 	</div>
 </div>
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
-<script src="js/perfect-scrollbar.js"></script>
-<script src="js/jquery.matchHeight.js"></script>
-<script src="js/svgxuse.js"></script>
-<script src="js/imagesloaded.pkgd.js"></script>
-<script src="js/Headroom.js"></script>
-<script src="js/velocity.js"></script>
-<script src="js/ScrollMagic.js"></script>
-<script src="js/jquery.waypoints.js"></script>
-<script src="js/jquery.countTo.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/material.min.js"></script>
-<script src="js/bootstrap-select.js"></script>
-<script src="js/smooth-scroll.js"></script>
-<script src="js/selectize.js"></script>
-<script src="js/swiper.jquery.js"></script>
-<script src="js/moment.js"></script>
-<script src="js/daterangepicker.js"></script>
-<script src="js/simplecalendar.js"></script>
-<script src="js/fullcalendar.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/ajax-pagination.js"></script>
-<script src="js/Chart.js"></script>
-<script src="js/chartjs-plugin-deferred.js"></script>
-<script src="js/circle-progress.js"></script>
-<script src="js/loader.js"></script>
-<script src="js/run-chart.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/jquery.gifplayer.js"></script>
-<script src="js/mediaelement-and-player.js"></script>
-<script src="js/mediaelement-playlist-plugin.min.js"></script>
-<script src="js/base-init.js"></script>
-<script src="js/fontawesome-all.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
+<?php include("footer.php");?>
 <script src="js/webfontloader.min.js"></script>
 <script>
 	WebFont.load({
