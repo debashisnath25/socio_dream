@@ -38,8 +38,6 @@
 <script src="js/jquery.gifplayer.js"></script>
 <script src="js/mediaelement-and-player.js"></script>
 <script src="js/mediaelement-playlist-plugin.min.js"></script>
-
 <script src="js/base-init.js"></script>
 <script defer src="js/fontawesome-all.js"></script>
-
 <script src="js/bootstrap.bundle.js"></script>
