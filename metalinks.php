@@ -11,3 +11,23 @@
 	<!-- Main Styles CSS -->
 	<link rel="stylesheet" type="text/css" href="css/main.min.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.min.css">
+	<style>
+		.icon_hdh{
+			height:40px;
+			
+		}
+		.mri_s{
+			margin-right:20px;
+		}
+		.icn_man{
+			font-size:30px;
+		}
+		
+		.icn_man:hover{
+			color:white;
+		}
+
+		.icn_man-activ{
+			color:white;
+		}
+	</style>

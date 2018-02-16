@@ -10,7 +10,7 @@
 <body>
 
 
-<?php include("chatsidebar.php");?>
+<?php //include("chatsidebar.php");?>
 
 <!-- ... end Fixed Sidebar Right -->
 <!-- Header-BP -->
