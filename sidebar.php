@@ -1,15 +1,11 @@
 		<div class="col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-xs-12 responsive-display-none">
 			<div class="ui-block">
-
-				
-				
 				<!-- Your Profile  -->
 				
 				<div class="your-profile" >
 					<div class="ui-block-title ui-block-title-small">
 						<h6 class="title">Your PROFILE</h6>
 					</div>
-				
 					<div id="accordion" role="tablist" aria-multiselectable="true">
 						<div class="card">
 							<div class="card-header" role="tab" id="headingOne">
@@ -42,7 +38,6 @@
 							</div>
 						</div>
 					</div>
-				
 					<div class="ui-block-title">
 						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
 						<a href="#" class="items-round-little bg-primary">8</a>
@@ -64,9 +59,5 @@
 						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
 					</div>
 				</div>
-				
-				<!-- ... end Your Profile  -->
-				
-
 			</div>
 		</div>
