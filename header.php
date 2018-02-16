@@ -4,7 +4,7 @@
     background: linear-gradient(-45deg, #5f2c82, #ca4966);">
 
 	<div class="page-title">
-		<a href="#" ><img src="images/newlogo.png" style="height:40px;margin-top:-10px;"></a>
+		<a href="#" ><img src="images/newlogo.png" style="height:35px;margin-top:-10px;"></a>
 	</div>
 
 	<div class="header-content-wrapper">

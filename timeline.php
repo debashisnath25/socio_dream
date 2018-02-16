@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<?php include("chatsidebar.php");?>
+<?php //include("chatsidebar.php");?>
 
 <?php include("header.php");?>
 
