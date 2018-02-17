@@ -48,12 +48,12 @@
 				</div>
 				<!-- Notification List -->
 				<ul class="table-careers">
-					<li class="head text-center" style="padding:5px;">
+					<li class="head text-center" style="padding:5px;margin-top:2px;">
 						<span class="bold">PICTURE</span>
 						<span class="bold" style="width:300px;">DESCRIPTION</span>
 						<span class="bold" >DATE POSTED</span>
 					</li>
-					<?php for($i=0;$i<40;$i++){?>
+					<?php for($i=0;$i<10;$i++){?>
 						<li style="padding:5px;margin-top:2px;">
 							<span class="text-center position bold"><img src="images/avatar7-sm.jpg" alt="author" style="border-radius:50%"></span>
 							<span class="type bold" style="width:300px;"><a href="#" class="h6 notification-friend">Marina Valentine</a> commented on your new <a href="#" class="notification-link">profile status</a>.</span>
