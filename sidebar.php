@@ -23,32 +23,33 @@
 
 						</div>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-cogs" style="color:#ca4966"></i> Settings</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title" style="font-weight:normal;"><i class="fas fa-cogs" style="color:#ca4966"></i>
+						Settings</a>
 						<a href="#" class="items-round-little "><i class="fas fa-pencil-alt" style="color:black;"></i></a>
 					</div>
-					<div class="ui-block-title">
+					<div class="ui-block-title aviu">
 						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="far fa-question-circle" style="color:#ca4966"></i> About</a>
 						<a href="#" class="items-round-little"><i class="fas fa-pencil-alt" style="color:black;"></i></a>
 					</div>
-					<div class="ui-block-title">
+					<div class="ui-block-title aviu">
 						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-images" style="color:#ca4966"></i> Gallery</a>
 						<a href="#" class="items-round-little "><i class="fas fa-pencil-alt" style="color:black;"></i></a>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-wrench"></i> Preferences</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-wrench" style="color:#ca4966"></i> Preferences</a>
+						<a href="#" class="items-round-little"><i class="fas fa-pencil-alt" style="color:black;"></i></a>
+					</div>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-comments" style="color:#1DA1F2"></i> Messages</a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title">Messages</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-users" style="color:#1DA1F2"></i> Discover People </a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title">Discover People </a>
-						<a href="#" class="items-round-little bg-primary">8</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title"> Local Timeline </a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-comments" style="color:#1DA1F2"></i>  Local Timeline </a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
 					
