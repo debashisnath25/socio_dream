@@ -46,44 +46,24 @@
 						</ul>
 					</div>
 				</div>
-				
 				<!-- Notification List -->
-				
 				<ul class="table-careers">
-					<li class="head" style="padding:5px;">
-						<span>PICTURE</span>
-						<span style="width:300px;">DESCRIPTION</span>
-						<span>DATE POSTED</span>
+					<li class="head text-center" style="padding:5px;">
+						<span class="bold">PICTURE</span>
+						<span class="bold" style="width:300px;">DESCRIPTION</span>
+						<span class="bold" >DATE POSTED</span>
 					</li>
-					<?php for($i=0;$i<30;$i++){?>
-						<li style="padding:5px;">
-							<span class="position bold"><img src="images/avatar7-sm.jpg" alt="author" style="border-radius:50%"></span>
+					<?php for($i=0;$i<40;$i++){?>
+						<li style="padding:5px;margin-top:2px;">
+							<span class="text-center position bold"><img src="images/avatar7-sm.jpg" alt="author" style="border-radius:50%"></span>
 							<span class="type bold" style="width:300px;"><a href="#" class="h6 notification-friend">Marina Valentine</a> commented on your new <a href="#" class="notification-link">profile status</a>.</span>
-							<span class="date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 10:07am</time></span>
+							<span class="text-center date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 10:07am</time></span>
 						</li>
 					<?php } ?>
 				</ul>
 				<!-- ... end Notification List -->
 			</div>
-
-			
 			<!-- Pagination -->
-			
-			<nav aria-label="Page navigation">
-				<ul class="pagination justify-content-center">
-					<li class="page-item disabled">
-						<a class="page-link" href="#" tabindex="-1">Previous</a>
-					</li>
-					<li class="page-item"><a class="page-link" href="#">1<div class="ripple-container"><div class="ripple ripple-on ripple-out" style="left: -10.3833px; top: -16.8333px; background-color: rgb(255, 255, 255); transform: scale(16.7857);"></div></div></a></li>
-					<li class="page-item"><a class="page-link" href="#">2</a></li>
-					<li class="page-item"><a class="page-link" href="#">3</a></li>
-					<li class="page-item"><a class="page-link" href="#">...</a></li>
-					<li class="page-item"><a class="page-link" href="#">12</a></li>
-					<li class="page-item">
-						<a class="page-link" href="#">Next</a>
-					</li>
-				</ul>
-			</nav>
 			<!-- ... end Pagination -->
 		</div>
 
@@ -94,12 +74,7 @@
 
 <!-- ... end Your Account Personal Information -->
 
-
-
-
-
 <!-- Window-popup-CHAT for responsive min-width: 768px -->
-
 <div class="ui-block popup-chat popup-chat-responsive">
 	<div class="ui-block-title">
 		<span class="icon-status online"></span>
