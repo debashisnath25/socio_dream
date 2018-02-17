@@ -24,17 +24,13 @@
 	<?php include ('right_sidebar.php');?>
 		<div class="col-xl-6 order-xl-2 col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
 			<div class="ui-block">
-				<div class="ui-block-title">
+				<div class="ui-block-title" style="border-bottom: 15px solid #e6ecf5;">
 					<a href="message_request.php"><h6 class="title">Message Requests&nbsp;(3)</h6></a>
 				</div>
-				<div class="ui-block-title" style="border-bottom: 2px solid #e6ecf5">
-					<h6 class="title">Your Messages</h6>
-				</div>	
-
-				
 				<!-- Notification List Frien Requests -->
 				
-				<ul class="notification-list friend-requests">
+				<ul class="notification-list friend-requests" style="    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);">
 					<li>
 						<div class="author-thumb">
 							<img src="images/avatar15-sm.jpg" alt="author">
