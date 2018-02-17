@@ -30,7 +30,18 @@
 		.icn_man-activ{
 			color:white;
 		}
-		.fixedsticky {
-		top: 0;
-	}
+		.aviu {
+			line-height: 1;
+			display: table;
+			width: 100%;
+			position: relative;
+			padding: 10px 25px 10px;
+			border-bottom: none;
+			border-top: none;
+			border-radius: 5px 5px 0px 0px;
+		}
+
+		.aviu:hover{
+			background:#eee;
+		}
 	</style>

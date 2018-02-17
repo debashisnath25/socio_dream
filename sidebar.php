@@ -3,61 +3,56 @@
 				<!-- Your Profile  -->
 				
 				<div class="your-profile" >
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">Your PROFILE</h6>
-					</div>
 					<div id="accordion" role="tablist" aria-multiselectable="true">
 						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<h6 class="mb-0">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Profile Settings
-										<i class="fas fa-ellipsis-h"></i>
-									</a>
-								</h6>
-							</div>
-				
-							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-								<ul class="your-profile-menu">
-									<li>
-										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
-									</li>
-									<li>
-										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
-									</li>
-									<li>
-										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
-									</li>
-									<li>
-										<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
-									</li>
-									<li>
-										<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
-									</li>
-								</ul>
-							</div>
+								
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<article class="hentry blog-post blog-post-v1">
+								  <div class="post-thumb">
+									<img src="https://theme.crumina.net/html-olympus/img/post8.jpg" alt="photo">
+									<div class="post-content">
+									  <a href="#" class="h4 " style="color:white;font-size:13px">Kolkata ,India</a>
+									  <div class="author-date">
+										<a class="h5  fn" href="#" style="color:white;">MADDY SIMMONS</a>
+									  </div>
+									</div>
+								  </div>
+
+								</article>
+							</a>
+
 						</div>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title" style="font-weight:normal;"><i class="fas fa-cogs" style="color:#ca4966"></i>
+						Settings</a>
+						<a href="#" class="items-round-little "><i class="fas fa-pencil-alt" style="color:black;"></i></a>
+					</div>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="far fa-question-circle" style="color:#ca4966"></i> About</a>
+						<a href="#" class="items-round-little"><i class="fas fa-pencil-alt" style="color:black;"></i></a>
+					</div>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-images" style="color:#ca4966"></i> Gallery</a>
+						<a href="#" class="items-round-little "><i class="fas fa-pencil-alt" style="color:black;"></i></a>
+					</div>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-wrench" style="color:#ca4966"></i> Preferences</a>
+						<a href="#" class="items-round-little"><i class="fas fa-pencil-alt" style="color:black;"></i></a>
+					</div>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-comments" style="color:#1DA1F2"></i> Messages</a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
-					<div class="ui-block-title">
-						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-users" style="color:#1DA1F2"></i> Discover People </a>
+						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
-					<div class="ui-block-title">
-						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-						<a href="#" class="items-round-little bg-blue">4</a>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title"><i class="fas fa-comments" style="color:#1DA1F2"></i>  Local Timeline </a>
+						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">FAVOURITE PAGE</h6>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
-					</div>
+					
 				</div>
 			</div>
 		</div>

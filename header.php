@@ -11,12 +11,12 @@
 
 		<div class="control-block">
 
-			<div class=" more has-items icon_hdh mri_s"   style="margin-top:8px;">
+			<div class=" more has-items icon_hdh mri_s" style="margin-top:8px;">
 				<i class="fa fa-globe icn_man"></i>
 				<div class="label-avatar bg-primary">6</div>
 			</div>
 
-			<div class=" more has-items icon_hdh mri_s"   style="margin-top:8px;">
+			<div class=" more has-items icon_hdh mri_s" style="margin-top:8px;">
 				<i class="fa fa-comments icn_man"></i>
 				<div class="label-avatar bg-primary">6</div>
 			</div>
