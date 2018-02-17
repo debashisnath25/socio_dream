@@ -30,7 +30,7 @@
 		.icn_man-activ{
 			color:white;
 		}
-		.ui-block-title {
+		.aviu {
 			line-height: 1;
 			display: table;
 			width: 100%;
@@ -42,6 +42,6 @@
 		}
 
 		.ui-block-title:hover{
-			background:##d2d2d2;
+			background:#eee;
 		}
 	</style>

@@ -23,8 +23,8 @@
 
 						</div>
 					</div>
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h4"><i class="fas fa-cogs" style="color:#ca4966"></i>
+					<div class="ui-block-title aviu">
+						<a href="33-YourAccount-Notifications.html" class="h6 title" style="font-weight:normal;"><i class="fas fa-cogs" style="color:#ca4966"></i>
 						Settings</a>
 						<a href="#" class="items-round-little "><i class="fas fa-pencil-alt" style="color:black;"></i></a>
 					</div>
