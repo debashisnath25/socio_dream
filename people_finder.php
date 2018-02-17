@@ -24,7 +24,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xl-9 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-xs-12">
+		<div class="col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-xs-12">
 			<div class="ui-block responsive-flex">
 				<div class="ui-block-title">
 					<div class="h6 title">Green Goo's Favers (5630)</div>
@@ -44,7 +44,7 @@
 				<?php
 					for($i=0;$i<6;$i++){
 				?>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div class="ui-block">
 						
 						<!-- Friend Item -->
@@ -54,7 +54,7 @@
 								<img src="images/friend5.jpg" alt="friend">
 							</div>
 						
-							<div class="friend-item-content">
+							<div class="friend-item-content" style="padding:0px;">
 						
 								<div class="more">
 									<i class="fas fa-ellipsis-h"></i>
@@ -114,49 +114,10 @@
 												<a href="#" class="btn btn-control bg-purple">
 													<i class="far fa-comment-alt"></i>
 												</a>
-						
 											</div>
 										</div>
-						
-										<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 218px;">
-											<p class="friend-about" data-swiper-parallax="-500">
-												Hi!, I’m Marina and I’m a Community Manager for “Gametube”. Gamer and full-time mother.
-											</p>
-						
-											<div class="friend-since" data-swiper-parallax="-100">
-												<span>Friends Since:</span>
-												<div class="h6">December 2014</div>
-											</div>
-										</div>
-										<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 218px;">
-											<div class="friend-count" data-swiper-parallax="-500">
-												<a href="#" class="friend-count-item">
-													<div class="h6">82</div>
-													<div class="title">Friends</div>
-												</a>
-												<a href="#" class="friend-count-item">
-													<div class="h6">204</div>
-													<div class="title">Photos</div>
-												</a>
-												<a href="#" class="friend-count-item">
-													<div class="h6">27</div>
-													<div class="title">Videos</div>
-												</a>
-											</div>
-											<div class="control-block-button" data-swiper-parallax="-100">
-												<a href="#" class="btn btn-control bg-blue">
-													<svg class="olymp-happy-face-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-happy-face-icon"></use></svg>
-												</a>
-						
-												<a href="#" class="btn btn-control bg-purple">
-													<svg class="olymp-chat---messages-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-chat---messages-icon"></use></svg>
-												</a>
-						
-											</div>
-										</div></div>
-						
+									</div>
 									<!-- If we need pagination -->
-									<div class="swiper-pagination pagination-swiper-unique-id-4 swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
 								</div>
 							</div>
 						</div>
@@ -182,7 +143,12 @@
 				</ul>
 			</nav>
 		</div>
-		<?php include("sidebar.php");?>
+		<?php
+			include("sidebar.php");
+		?>
+		<?php
+			include("right_sidebar.php");
+		?>
 	</div>
 </div>
 <?php include("footer.php");?>
