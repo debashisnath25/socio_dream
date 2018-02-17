@@ -30,4 +30,18 @@
 		.icn_man-activ{
 			color:white;
 		}
+		.ui-block-title {
+			line-height: 1;
+			display: table;
+			width: 100%;
+			position: relative;
+			padding: 10px 25px 10px;
+			border-bottom: none;
+			border-top: none;
+			border-radius: 5px 5px 0px 0px;
+		}
+
+		.ui-block-title:hover{
+			background:##d2d2d2;
+		}
 	</style>
