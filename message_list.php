@@ -25,9 +25,11 @@
 		<div class="col-xl-6 order-xl-2 col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
-					<h6 class="title">Friend Requests</h6>
-					<a href="#" class="more"><span class="olymp-three-dots-icon"><i class="fas fa-ellipsis-h"></i></span></a>
+					<a href="message_request.php"><h6 class="title">Message Requests&nbsp;(3)</h6></a>
 				</div>
+				<div class="ui-block-title" style="border-bottom: 2px solid #e6ecf5">
+					<h6 class="title">Your Messages</h6>
+				</div>	
 
 				
 				<!-- Notification List Frien Requests -->
@@ -39,20 +41,8 @@
 						</div>
 						<div class="notification-event">
 							<a href="#" class="h6 notification-friend">Tamara Romanoff</a>
-							<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
+							<span class="chat-message-item">Hey there!</span>
 						</div>
-						<span class="notification-icon" ">
-											<a href="#" class="accept-request">
-												<span class="">
-													<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-												</span>
-											</a>
-											<a href="#" class="accept-request request-del" style="background:#ca4966;">
-												<span class="" >
-													<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center;" title= "Ignore Request"></i></span>
-												</span>
-											</a>
-							</span>
 				
 						<div class="more">
 							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
@@ -60,30 +50,15 @@
 						</div>
 					</li>
 				
-					<li>
+					<li style="background: #eeeeee;">
 						<div class="author-thumb">
 							<img src="images/avatar16-sm.jpg" alt="author">
 						</div>
 						<div class="notification-event">
 							<a href="#" class="h6 notification-friend">Tony Stevens</a>
-							<span class="chat-message-item">4 Friends in Common</span>
+							<span class="chat-message-item">Are you coming today?</span>
 						</div>
-						<span class="notification-icon">
-											<a href="#" class="accept-request">
-												<span class="">
-													<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-												</span>
-											
-											</a>
-				
-											<a href="#" class="accept-request request-del" style="background:#ca4966;">
-												<span class="" >
-													<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center;" title= "Ignore Request"></i></span>
-												</span>
-											</a>
-				
-										</span>
-				
+						
 						<div class="more">
 							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
@@ -97,24 +72,9 @@
 						</div>
 						<div class="notification-event">
 							<a href="#" class="h6 notification-friend">Stagg Clothing</a>
-							<span class="chat-message-item">9 Friends in Common</span>
+							<span class="chat-message-item">Talk to you letter!</span>
 						</div>
-						<span class="notification-icon">
-											<a href="#" class="accept-request">
-												<span class="">
-													<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-												</span>
-											
-											</a>
-				
-											<a href="#" class="accept-request request-del" style="background:#ca4966;">
-												<span class="" >
-													<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center; " title= "Ignore Request"></i></span>
-												</span>
-											</a>
-				
-										</span>
-				
+						
 						<div class="more">
 							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
