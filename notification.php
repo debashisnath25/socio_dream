@@ -31,7 +31,20 @@
 			<div class="ui-block">
 				<div class="ui-block-title">
 					<h6 class="title">Notifications</h6>
-					<a href="#" class="more"><i class="fas fa-ellipsis-h"></i></a>
+					<div class="more">
+						<i class="fas fa-ellipsis-h"></i>
+						<ul class="more-dropdown">
+							<li>
+								<a href="#">Report Profile</a>
+							</li>
+							<li>
+								<a href="#">Block Profile</a>
+							</li>
+							<li>
+								<a href="#">Turn Off Notifications</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				
 				<!-- Notification List -->
