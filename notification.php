@@ -1,138 +1,99 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Your Account - Friends Requests</title>
-<?php include ('metalinks.php');?>
-<style>
 
-</style>
+	<title>Your Account - Notifications</title>
+
+	<!-- Required meta tags always come first -->
+	<?php include("metalinks.php");?>
+	<!-- Main Font -->
+	<script src="js/webfontloader.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: ['Roboto:300,400,500,700:latin']
+			}
+		});
+	</script>
+
 </head>
 <body>
-<!-- Header-BP -->
 
-<?php include ('header.php');?>
+<?php //include("chatsidebar.php");?>
 
-<!-- ... end Responsive Header-BP -->
-<div class="header-spacer "></div>
-
-
-
-<!-- Your Account Personal Information -->
+<?php include("header.php");?>
+<div class="header-spacer"></div>
 
 <div class="container">
 	<div class="row">
-	<?php include ('right_sidebar.php');?>
-		<div class="col-xl-6 order-xl-2 col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
+		<div class="col-xl-6 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
 			<div class="ui-block">
 				<div class="ui-block-title">
-					<h6 class="title">Message Requests</h6>
-					<a href="#" class="more"><span class="olymp-three-dots-icon"><i class="fas fa-ellipsis-h"></i></span></a>
+					<h6 class="title">Notifications</h6>
+					<div class="more">
+						<i class="fas fa-ellipsis-h"></i>
+						<ul class="more-dropdown">
+							<li>
+								<a href="#">Report Profile</a>
+							</li>
+							<li>
+								<a href="#">Block Profile</a>
+							</li>
+							<li>
+								<a href="#">Turn Off Notifications</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-
 				
-				<!-- Notification List Frien Requests -->
+				<!-- Notification List -->
 				
-				<ul class="notification-list friend-requests">
-					<li >
-							<div class="author-thumb">
-								<img src="images/avatar15-sm.jpg" alt="author">
-							</div>
-							<div class="notification-event">
-								<a href="#" class="h6 notification-friend">Tamara Romanoff</a>
-								<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
-							</div>
-							<span class="notification-icon" >
-								<a href="#" class="accept-request">
-									<span class="">
-										<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-									</span>
-								</a>
-								<a href="#" class="accept-request request-del" style="background:#ca4966;">
-									<span class="" >
-										<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center;" title= "Ignore Request"></i></span>
-									</span>
-								</a>
-							</span>
-
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
+				<ul class="table-careers">
+					<li class="head" style="padding:5px;">
+						<span>PICTURE</span>
+						<span style="width:300px;">DESCRIPTION</span>
+						<span>DATE POSTED</span>
 					</li>
-				
-					<li>
-						<div class="author-thumb">
-							<img src="images/avatar16-sm.jpg" alt="author">
-						</div>
-						<div class="notification-event">
-							<a href="#" class="h6 notification-friend">Tony Stevens</a>
-							<span class="chat-message-item">4 Friends in Common</span>
-						</div>
-						<span class="notification-icon">
-											<a href="#" class="accept-request">
-												<span class="">
-													<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-												</span>
-											
-											</a>
-				
-											<a href="#" class="accept-request request-del" style="background:#ca4966;">
-												<span class="" >
-													<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center;" title= "Ignore Request"></i></span>
-												</span>
-											</a>
-				
-										</span>
-				
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
-					</li>
-			
-				
-					<li>
-						<div class="author-thumb">
-							<img src="images/avatar18-sm.jpg" alt="author">
-						</div>
-						<div class="notification-event">
-							<a href="#" class="h6 notification-friend">Stagg Clothing</a>
-							<span class="chat-message-item">9 Friends in Common</span>
-						</div>
-						<span class="notification-icon">
-											<a href="#" class="accept-request">
-												<span class="">
-													<span class="olymp-happy-face-icon" style=""><i class="fa fa-check" style="margin-top:5px;width: 15px;height: 13px;align:center;" title="Acccept Request"></i></span>
-												</span>
-											
-											</a>
-				
-											<a href="#" class="accept-request request-del" style="background:#ca4966;">
-												<span class="" >
-													<span class="olymp-happy-face-icon"><i class="fa fa-trash" style="margin-top:5px;width: 15px;height: 13px;align:center; " title= "Ignore Request"></i></span>
-												</span>
-											</a>
-				
-										</span>
-				
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
-					</li>
-				
+					<?php for($i=0;$i<30;$i++){?>
+						<li style="padding:5px;">
+							<span class="position bold"><img src="images/avatar7-sm.jpg" alt="author" style="border-radius:50%"></span>
+							<span class="type bold" style="width:300px;"><a href="#" class="h6 notification-friend">Marina Valentine</a> commented on your new <a href="#" class="notification-link">profile status</a>.</span>
+							<span class="date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 10:07am</time></span>
+						</li>
+					<?php } ?>
 				</ul>
-				
-				<!-- ... end Notification List Frien Requests -->
+				<!-- ... end Notification List -->
 			</div>
 
+			
+			<!-- Pagination -->
+			
+			<nav aria-label="Page navigation">
+				<ul class="pagination justify-content-center">
+					<li class="page-item disabled">
+						<a class="page-link" href="#" tabindex="-1">Previous</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1<div class="ripple-container"><div class="ripple ripple-on ripple-out" style="left: -10.3833px; top: -16.8333px; background-color: rgb(255, 255, 255); transform: scale(16.7857);"></div></div></a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">...</a></li>
+					<li class="page-item"><a class="page-link" href="#">12</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- ... end Pagination -->
 		</div>
 
-	<?php include ('sidebar.php');?>
+		<?php include("sidebar.php");?>
+		<?php include("right_sidebar.php");?>
 	</div>
 </div>
 
 <!-- ... end Your Account Personal Information -->
+
 
 
 
@@ -155,7 +116,7 @@
 					<img src="images/avatar14-sm.jpg" alt="author" class="mCS_img_loaded">
 				</div>
 				<div class="notification-event">
-					<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! I’m gonna be handling the gifts and Jake’s gonna get the drinks</span>
+					<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! Iâ€™m gonna be handling the gifts and Jakeâ€™s gonna get the drinks</span>
 					<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10pm</time></span>
 				</div>
 			</li>
@@ -165,7 +126,7 @@
 					<img src="images/author-page.jpg" alt="author" class="mCS_img_loaded">
 				</div>
 				<div class="notification-event">
-					<span class="chat-message-item">Don’t worry Mathilda!</span>
+					<span class="chat-message-item">Donâ€™t worry Mathilda!</span>
 					<span class="chat-message-item">I already bought everything</span>
 					<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:29pm</time></span>
 				</div>
@@ -176,7 +137,7 @@
 					<img src="images/avatar14-sm.jpg" alt="author" class="mCS_img_loaded">
 				</div>
 				<div class="notification-event">
-					<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! I’m gonna be handling the gifts and Jake’s gonna get the drinks</span>
+					<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! Iâ€™m gonna be handling the gifts and Jakeâ€™s gonna get the drinks</span>
 					<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10pm</time></span>
 				</div>
 			</li>
@@ -336,15 +297,11 @@
 				</div>
 			</div>
 		</div>
-
 	</form>
-
-
 </div>
-
 <!-- ... end Window-popup-CHAT for responsive min-width: 768px -->
-
-<?php include ('footer.php');?>
+<!-- JS Scripts -->
+<?php include("footer.php");?>
 
 </body>
 </html>
