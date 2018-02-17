@@ -39,11 +39,11 @@
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
 					<div class="ui-block-title aviu">
-						<a href="#" class="h6 title" style="font-weight:normal;"><i class="fas fa-users" style="color:#1DA1F2;width:30px;"></i> &nbsp;&nbsp;Discover People </a>
+						<a href="#" class="h6 title" style="font-weight:normal;"><i class="fas fa-users" style="color:#ca4966;width:30px;"></i> &nbsp;&nbsp;Discover People </a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
 					<div class="ui-block-title aviu">
-						<a href="#" class="h6 title" style="font-weight:normal;"><i class="fas fa-comments" style="color:#1DA1F2;width:30px;"></i> &nbsp;&nbsp;Local Timeline </a>
+						<a href="#" class="h6 title" style="font-weight:normal;"><i class="fas fa-comments" style="color:#ca4966;width:30px;"></i> &nbsp;&nbsp;Local Timeline </a>
 						<a href="#" class="items-round-little bg-primary">8</a>
 					</div>
 					<p></p>
@@ -51,60 +51,90 @@
 			</div>
 			
 			<div class="ui-block">
-			<div class="ui-block-content">
+  <div class="ui-block-title">
+    <h6 class="title">Friends (86)
+    </h6>
+  </div>
+  <div class="ui-block-content">
+    <!-- W-Faved-Page -->
+    <ul class="widget w-faved-page js-zoom-gallery">
+      <li>
+        <a href="#">
+          <img src="images/avatar38-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar24-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar36-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar35-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar34-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar33-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar32-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar31-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar30-sm.jpg" alt="author">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar29-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar28-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar27-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar26-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/avatar25-sm.jpg" alt="user">
+        </a>
+      </li>
+      <li class="all-users">
+        <a href="#">+74
+        </a>
+      </li>
+    </ul>
+    <!-- .. end W-Faved-Page -->
+  </div>
+</div>
 
-					<!-- W-Latest-Photo -->
-					
-					<ul class="widget w-last-photo js-zoom-gallery">
-						<li>
-							<a href="images/last-photo10-large.jpg">
-								<img src="images/last-photo10-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot11-large.jpg">
-								<img src="images/last-phot11-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot12-large.jpg">
-								<img src="images/last-phot12-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot13-large.jpg">
-								<img src="images/last-phot13-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot14-large.jpg">
-								<img src="images/last-phot14-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot15-large.jpg">
-								<img src="images/last-phot15-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot16-large.jpg">
-								<img src="images/last-phot16-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot17-large.jpg">
-								<img src="images/last-phot17-large.jpg" alt="photo">
-							</a>
-						</li>
-						<li>
-							<a href="images/last-phot18-large.jpg">
-								<img src="images/last-phot18-large.jpg" alt="photo">
-							</a>
-						</li>
-					</ul>
-					
-					
-					<!-- .. end W-Latest-Photo -->
-				</div>
-				</div>
 		</div>
