@@ -4,7 +4,9 @@
 <title>Your Account - Friends Requests</title>
 <?php include ('metalinks.php');?>
 <style>
-
+.step_right {
+    float: right !important;
+}
 </style>
 </head>
 <body>
@@ -23,66 +25,61 @@
 	<div class="row">
 	<?php include ('right_sidebar.php');?>
 		<div class="col-xl-6 order-xl-2 col-lg-6 order-lg-2 col-md-12 order-md-1 col-sm-12 col-xs-12">
-			<div class="ui-block">
+			<div class="ui-block popup-chat" style="">
 				<div class="ui-block-title">
-					<a href="message_request.php"><h6 class="title">Message Requests&nbsp;(3)</h6></a>
+					<span class="icon-status online"></span>
+					<h6 class="title">Mathilda Brinker</h6>
+					<div class="more">
+						<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
+						<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
+					</div>
 				</div>
-			</div>
+				<div class="mCustomScrollbar" data-mcs-theme="dark">
+					<ul class="notification-list chat-message chat-message-field">
+						<li>
+							<div class="author-thumb">
+								<img src="images/avatar14-sm.jpg" alt="author">
+							</div>
+							<div class="notification-event">
+								<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! I'm gonna be handling the gifts and Jake's gonna get the drinks</span>
+								<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10pm</time></span>
+							</div>
+						</li>
 
-			<div class="ui-block">
-				<ul class="notification-list friend-requests" style="border-radius: 3px;">
-					<li>
-						<div class="author-thumb">
-							<a href="message_details.php"><img src="images/avatar15-sm.jpg" alt="author"></a>
-						</div>
-						<div class="notification-event">
-							<a href="message_details.php" class="h6 notification-friend">Tamara Romanoff</a>
-							<a href="message_details.php"><span class="chat-message-item">Hey there!</span></a>
-						</div>
-				
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
-					</li>
-				
-					<li style="background: #eeeeee;">
-						<div class="author-thumb">
-							<img src="images/avatar16-sm.jpg" alt="author">
-						</div>
-						<div class="notification-event">
-							<a href="#" class="h6 notification-friend">Tony Stevens</a>
-							<span class="chat-message-item">Are you coming today?</span>
-						</div>
-						
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
-					</li>
-			
-				
-					<li>
-						<div class="author-thumb">
-							<img src="images/avatar18-sm.jpg" alt="author">
-						</div>
-						<div class="notification-event">
-							<a href="#" class="h6 notification-friend">Stagg Clothing</a>
-							<span class="chat-message-item">Talk to you letter!</span>
-						</div>
-						
-						<div class="more">
-							<svg class="olymp-three-dots-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use></svg>
-							<svg class="olymp-little-delete"><use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use></svg>
-						</div>
-					</li>
-				
-				</ul>
-				
-				<!-- ... end Notification List Frien Requests -->
+						<li>
+							<div class="author-thumb">
+								<img src="images/author-page.jpg" alt="author">
+							</div>
+							<div class="notification-event">
+								<span class="chat-message-item" >Don't worry Mathilda!</span>
+								<span class="chat-message-item" style="margin-left:100px;">I already bought everything</span>
+								<span class="notification-date step_right"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:29pm</time></span>
+							</div>
+						</li>
+
+						<li>
+							<div class="author-thumb">
+								<img src="images/avatar14-sm.jpg" alt="author">
+							</div>
+							<div class="notification-event">
+								<span class="chat-message-item">Hi James! Please remember to buy the food for tomorrow! </span>
+								<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 8:10pm</time></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<form>
+					<div class="form-group label-floating is-empty">
+						<label class="control-label">Press enter to post...</label>
+						<textarea class="form-control" placeholder=""  ></textarea>
+					</div>
+				</form>
 			</div>
 
 		</div>
+
+
 
 
 
